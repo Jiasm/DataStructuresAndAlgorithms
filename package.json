@@ -1,0 +1,19 @@
+{
+  "name": "lean_algorthms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jiasm/DataStructuresAndAlgorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jiasm/DataStructuresAndAlgorithms/issues"
+  },
+  "homepage": "https://github.com/Jiasm/DataStructuresAndAlgorithms#readme"
+}
