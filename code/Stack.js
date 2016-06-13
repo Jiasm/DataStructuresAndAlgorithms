@@ -10,7 +10,7 @@
   push(elements) {
 
     var items = this.items;
-    if (elements instanceof Array) {
+    if (elements[Symbol.iterator]) {
 
       for (let ele of elements) {
         this.push.call(this, ele);
