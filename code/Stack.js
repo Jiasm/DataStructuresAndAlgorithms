@@ -11,18 +11,10 @@
    * 向Stack中添加一个或多个元素
    * @param  {Object} elements 元素或元素的集合
    */
-  push(elements) {
+  push(element) {
 
     var items = this.items;
-    if (elements[Symbol.iterator]) {
-
-      for (let ele of elements) {
-        this.push.call(this, ele);
-      }
-    } else {
-
-      items.push(elements);
-    }
+    items.push(element);
   }
 
   /**
@@ -81,7 +73,7 @@
 var stack = new Stack();
 
 stack.push(1);
-stack.push([2, 3, 4]);
+stack.push(2);
 
 console.log(stack.size());
 
